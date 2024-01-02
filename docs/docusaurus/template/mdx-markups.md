@@ -37,11 +37,11 @@ sidebar_position: 1
 
 #### Level 4 title
 
-You can write [links](/) relative to the content root (`/docs/`).
+You can write [links](#) relative to the content root (`/docs/`).
 
-You can also write [links](/) relative to the site directory, but it's not recommended.
+You can also write [links](#) relative to the site directory, but it's not recommended.
 
-Hello world message with some **bold** text, some _italic_ text, and a [link](/)
+Hello world message with some **bold** text, some _italic_ text, and a [link](#)
 
 ![img alt](/img/docusaurus.png)
 
@@ -62,11 +62,11 @@ Hello world message with some **bold** text, some _italic_ text, and a [link](/)
 
 #### Level 4 title
 
-You can write [links](/) relative to the content root (`/docs/`).
+You can write [links](#) relative to the content root (`/docs/`).
 
-You can also write [links](/) relative to the site directory, but it's not recommended.
+You can also write [links](#) relative to the site directory, but it's not recommended.
 
-Hello world message with some **bold** text, some _italic_ text, and a [link](/)
+Hello world message with some **bold** text, some _italic_ text, and a [link](#)
 
 ![img alt](/img/docusaurus.png)
 

@@ -1,17 +1,5 @@
 import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
-const rc = {
-  useState: "react/use-state",
-};
-
-const dc = {
-  temp: "docusaurus/template",
-};
-
-const js = {
-  dataTypes: "javascript/data-types",
-};
-
 const sidebars: SidebarsConfig = {
   react: [
     { type: "doc", label: "리엑트 관련 자료 모음", id: "react/rc-intro" },
@@ -22,7 +10,7 @@ const sidebars: SidebarsConfig = {
         type: "generated-index",
       },
       collapsed: false,
-      items: [`${rc.useState}/use-state`],
+      items: ["react/use-state/use-state"],
     },
   ],
   javascript: [
@@ -34,7 +22,7 @@ const sidebars: SidebarsConfig = {
         type: "generated-index",
       },
       collapsed: false,
-      items: [`${js.dataTypes}/destructuring`],
+      items: ["javascript/data-types/destructuring"],
     },
   ],
   docusaurus: [
@@ -47,7 +35,7 @@ const sidebars: SidebarsConfig = {
         type: "generated-index",
       },
       collapsed: false,
-      items: [`${dc.temp}/mdx-template`, `${dc.temp}/sidebar-config`, `${dc.temp}/mdx-markups`],
+      items: ["docusaurus/template/mdx-template", "docusaurus/template/sidebar-config", "docusaurus/template/mdx-markups"],
     },
   ],
 };
