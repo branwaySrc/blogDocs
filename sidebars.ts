@@ -2,7 +2,6 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 const sidebars: SidebarsConfig = {
   react: [
-    { type: "doc", label: "리엑트 관련 자료 모음", id: "react/rc-intro" },
     {
       type: "category",
       label: "useState 알아보기",
@@ -12,9 +11,9 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: ["react/use-state/use-state"],
     },
+    { type: "doc", label: "리엑트 관련 자료 모음", id: "react/rc-intro" },
   ],
   javascript: [
-    { type: "doc", label: "자바스크립트 관련 자료 모음", id: "javascript/js-intro" },
     {
       type: "category",
       label: "자료구조와 자료형",
@@ -24,9 +23,21 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: ["javascript/data-types/destructuring"],
     },
+    { type: "doc", label: "자바스크립트 관련 자료 모음", id: "javascript/js-intro" },
+  ],
+  typescript: [
+    {
+      type: "category",
+      label: "타입정의",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: false,
+      items: ["typescript/types/generic-types"],
+    },
+    { type: "doc", label: "타입스크립트 관련 자료 모음", id: "typescript/type-intro" },
   ],
   docusaurus: [
-    { type: "doc", label: "도큐사우루스 관련 자료 모음", id: "docusaurus/dc-intro" },
     {
       type: "category",
       label: "코드 템플릿",
@@ -36,6 +47,18 @@ const sidebars: SidebarsConfig = {
       },
       collapsed: false,
       items: ["docusaurus/template/mdx-template", "docusaurus/template/sidebar-config", "docusaurus/template/mdx-markups"],
+    },
+    { type: "doc", label: "도큐사우루스 관련 자료 모음", id: "docusaurus/dc-intro" },
+  ],
+  vocabularies: [
+    {
+      type: "category",
+      label: "코딩 용어집",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: false,
+      items: ["vocabs/instance", "vocabs/params"],
     },
   ],
 };

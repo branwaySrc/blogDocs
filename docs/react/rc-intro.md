@@ -1,7 +1,7 @@
 ---
-title: 다양한 자료를 보는 곳
+title: 리엑트 관련 자료 모음
 tags:
-  - Tag1
+  - React
 ---
 
 이곳은 react 입니다.

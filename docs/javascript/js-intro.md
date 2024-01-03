@@ -1,7 +1,7 @@
 ---
-title: 다양한 자료를 보는 곳
+title: 자바스크립트 관련 자료 모음
 tags:
-  - Tag1
+  - javascript
 ---
 
 이곳은 javascript 입니다.

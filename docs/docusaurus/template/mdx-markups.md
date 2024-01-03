@@ -10,15 +10,15 @@ sidebar_position: 1
 
 #### 코드공유하는 마크업 템플릿
 
-````js title="code-shares" {7-8}
-```{file.format} title="타이틀" {7-8}
+````js title="타이틀(string)" {7-8}
+```{file.format} title="타이틀(string)" {7-8}
 {...codes} // mdx, js, tsx, ts, etc...
 ```;
 ````
 
 - [파일포맷](#)
 
-파일 / 타이틀 / 하이라이트 순으로 설정할 수 있다. 아래 (`file.format`)에 원하는 파일 포맷을 설정하면, 그에 알맞는 색과 코드인식을 통해 잘 정리된다.
+파일 / 타이틀 / 하이라이트 순으로 설정할 수 있다. 위 (`file.format`)에 원하는 파일 포맷을 설정하면, 그에 알맞는 색과 코드인식을 통해 잘 정리된다.
 
 - [타이틀 설정](#)
 
@@ -71,6 +71,7 @@ Hello world message with some **bold** text, some _italic_ text, and a [link](#)
 ![img alt](/img/docusaurus.png)
 
 ## MDX에서 QUOTE 만들기
+
 다양한 경우에 따라, 원하는 느낌의 QUOTE를 만들 수 있다.
 
 ```mdx title="note.mdx"
@@ -150,7 +151,3 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 :::
-
-
-
-

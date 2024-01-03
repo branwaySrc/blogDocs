@@ -1,7 +1,7 @@
 ---
-title: 다양한 자료를 보는 곳
+title: 도큐사우루스 관련 자료 모음
 tags:
-  - Tag1
+  - Docusaurus
 ---
 
 ### DOCUSAURUS https://docusaurus.io/
